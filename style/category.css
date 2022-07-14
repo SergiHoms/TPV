@@ -50,8 +50,14 @@ h3{
 
 .ticket-box{
     display:flex;
+
+}
+
+.ticket-box-second{
+    display:flex;
     
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+
+    margin-top: -1rem;
 }
 
 .image-ticket-container{
@@ -117,6 +123,14 @@ h3{
     font-family: 'Abel', sans-serif;
     font-size: 1.2rem;
     color:grey;
+}
+
+.price-product-text-second{
+    margin-left:6.5rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    color:grey;
+
 }
 
 .boxes-price-tickets{
