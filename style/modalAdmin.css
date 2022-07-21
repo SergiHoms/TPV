@@ -1,0 +1,117 @@
+/* delete-ticket-box */
+
+.delete-ticket-box{
+    /* border:1px solid black;
+    border-radius: .2rem; */
+}
+
+.paymentMethod-close{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid grey;
+}
+
+.paymentMethod{
+    padding:1rem;
+}
+.paymentMethod-span{
+    font-size: 1.4rem;
+    font-family: 'Abel', sans-serif;
+    color:rgb(184, 183, 183);
+    
+
+}
+.btn-close{
+    padding:1rem;
+    border:none;
+}
+.btn-close-button{
+    border:none;
+    background-color:transparent;
+}
+
+.btn-close-span{
+    font-size: 1.4rem;
+    font-family: 'Abel', sans-serif;
+    color:rgb(184, 183, 183);
+    font-weight: 600;
+    
+}
+
+/* button of pagination */
+
+.close-pagination-button{
+    margin-top:1rem;
+    margin-left:83.2%;
+    
+
+}
+.delete-pagination-button{
+    margin-top:1rem;
+    margin-left:.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-close-pagination{
+    border:none;
+    background-color: grey;
+
+}
+.btn-delete-pagination{
+    border:none;
+    background-color: #4381aa;
+    border-radius: .2rem;
+
+}
+.pagination-delete-span{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    color:rgb(231, 230, 230);
+    padding:.5rem;
+
+}
+.pagination-close-span{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    color:rgb(184, 183, 183);
+
+}
+
+/* delete ticket content */
+
+.delete-ticket-content{
+    border-bottom:solid 1px grey;
+
+}
+
+.delete-ticket-content-span-first{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;  
+    color:rgb(184, 183, 183);
+    margin-left:20rem;
+    display:block;
+    
+
+}
+.delete-ticket-content-span-second{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;  
+    color:rgb(184, 183, 183);
+    margin-left:30rem;
+    display:block;
+    
+
+}
+
+
+/* btns-bottom */
+
+
+.btns-bottom{
+    display: flex;
+    
+}
+
+/* inputs-labels */
+
+/*  */

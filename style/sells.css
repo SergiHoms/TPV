@@ -1,0 +1,374 @@
+/* titulos y demás  */
+
+.tpv-aside-title{
+    margin-left: 12rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: -1rem;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+}
+
+.tpv-title{
+    font-size: 3rem;
+    justify-content: center;
+    margin-left:38.5rem;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+}
+
+.title-container{
+    margin-bottom: 0.5em;
+    background-color: lightgrey;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.title-main{
+    margin-left: 24rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: -.5rem;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+}
+
+.desktop-two-columns{
+   
+}
+
+.column-aside{
+    margin-top: 1.1rem;
+    
+}
+
+.column-main{
+
+    margin-top: 1.4rem;
+}
+
+main{
+    display: flex;
+}
+
+/* column aside */
+
+/* los filtros de busqueda del form y su botón  */
+.filter-box{
+    margin-top: 1.8rem;
+    margin-left: .5rem;
+}
+
+.filter-date{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    
+    
+
+}
+
+.filter-table{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.filter-button{
+    display: flex; 
+    margin-left:-.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+
+}
+
+.filter-input-button{
+    padding: .5rem;
+    border-radius: .2rem;
+    border: none;
+    background-color: rgb(22, 126, 190);
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+    padding-left: 11.8rem;
+    padding-right: 11.8rem;
+}
+
+.filter-input{
+    width: 10rem;
+    margin-right:1rem;
+    font-family: 'Abel', sans-serif;
+    padding:.1rem;
+    border: .1rem solid grey;
+    border-radius: .2rem;
+
+}
+
+.filter-input-table{
+    width: 10rem;
+    margin-right:1rem;
+    font-family: 'Abel', sans-serif;
+    padding:.1rem;
+    border: .1rem solid grey;
+    border-radius: .2rem;
+
+}
+
+.filter-span{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    color:rgb(128, 126, 126);
+    font-weight: 500;
+    margin-left:-.5rem;
+    margin-right:8.9rem;
+}
+
+/* las cajas de los tickets */
+
+.ticket-box{
+
+    margin-right:1rem;
+    overflow-y: scroll;
+    
+
+}
+
+.first-box{
+    background-color:rgb(22, 126, 190) ;
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+    padding: .9rem;
+    border-radius: .2rem;
+    
+    
+
+}
+
+.first-box-top{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+
+.first-box-bottom{
+
+    
+
+}
+
+.second-box{
+    
+    color:grey;
+    font-family: 'Abel', sans-serif;
+    font-weight: 500;
+    padding: .9rem;
+    border-radius: .2rem;
+    box-shadow: 0px 0px 20px rgb(156, 156, 156);
+    
+    
+
+}
+
+.second-box-top{
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.second-box-bottom{
+
+}
+/* las cajas con los precios y el total */
+.price-box{
+
+    margin-top:1rem;
+    margin-right:4.7rem;
+
+}
+
+.text-price-box{
+    display: flex;
+    background-color: grey;
+    border-top-left-radius: .2rem;
+    border-top-right-radius: .2rem;
+    margin-right:-4rem;
+    padding-top:.5rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    justify-content: space-between;
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+
+}
+
+.total-price-box{
+
+    display: flex;
+    background-color: grey;
+    border-bottom-left-radius: .2rem;
+    border-bottom-right-radius: .2rem;
+    margin-right:-4rem;
+    padding-bottom:.2rem;
+    padding-left:3rem;
+    padding-right:3rem;
+    justify-content: space-between;
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+.price-box-total{
+    display: flex;
+    padding-left:3rem;
+    padding-right:3rem;
+    
+}
+
+.total-price-box{
+    display: flex;
+
+    
+}
+
+.total-price-span{
+    margin-left: -1rem;
+    
+}
+
+.total-price-span-day{
+    margin-left:5rem;
+}
+
+.total-price-day{
+    border-left:solid 1px white;
+    justify-content: center;
+    margin-right: 1.3rem;
+}
+
+/* 
+column main */
+
+.column-main{
+
+}
+
+.tpv-main{
+
+}
+
+.title-main{
+
+}
+
+.main-box{
+    border:solid 2px lightgrey;
+    margin-left:-2rem;
+    width: 52rem;
+    margin-left:.3rem;
+    
+}
+
+.icon-box{
+    background-color: rgb(240, 240, 240);
+    border:solid 1px lightgrey;
+    width: 51.9rem;
+    
+}
+
+.grid-icon{
+    justify-content: end;
+    display: flex;
+    margin-left: 50rem;
+    padding:.1rem;
+}
+
+.sell-info{
+    display: flex;
+    
+}
+
+.title-sell{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-left:.5rem;
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+    color:rgb(128, 126, 126);
+    display: block;
+}
+
+.sell-info{
+    display: flex;
+    margin-left:.5rem;
+    margin-bottom:1rem;
+    
+}
+
+.black-letters{
+    color:black;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    
+    font-weight: 600;
+}
+
+.title-of-products{
+    display: flex;
+    justify-content: space-between;
+    margin-left:22rem;
+    margin-top:1rem;
+    color:black;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom:.5rem;
+    
+}
+
+.items-display{
+    display:flex;
+    justify-content: space-between;
+}
+
+.image-ticket{
+    width: 3rem;
+    height: 3rem;
+    margin-left:.5rem;
+    margin-right:.5rem;
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+}
+
+.box-products{
+    border-top:solid 1px black;
+}
+
+.food-name{
+    margin-left:-1rem;
+    font-family: 'Abel', sans-serif;
+}
+
+.price-product-text{
+    margin-right:4rem;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.image-ticket{
+    width: 3rem;
+    height: 3rem;
+    margin-left:10rem;
+    
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+}

@@ -58,6 +58,11 @@ h3{
     border:none;  
 }
 
+.input-ticket-tpv{
+    overflow-y: scroll;
+    
+}
+
 
 
 .input-tpv::placeholder{

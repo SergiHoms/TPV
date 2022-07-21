@@ -1,0 +1,475 @@
+.title-container{
+    margin-bottom: 0.5em;
+    background-color: lightgrey;
+    font-family: 'Abel', sans-serif;
+    
+}
+.tpv-title{
+    font-size: 3rem;
+    justify-content: center;
+    margin-left:38.5rem;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+}
+.desktop-two-columns{
+    display: flex;
+}
+
+h2{
+    margin-left: 45%;
+    
+}
+h3{
+    font-family: 'Abel', sans-serif;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+}
+.aside{
+    
+    z-index: 1;
+}
+.tpv-aside-title{
+    margin-left: 6rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: -1rem;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+}
+
+
+
+.title-main{
+    margin-left: 24rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.8rem;
+    margin-bottom: -.5rem;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+}
+
+.ticket-box{
+    display:flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    margin-right:.8rem;
+
+}
+
+.ticket-box-second{
+    display:flex;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0);
+    
+    
+
+    
+}
+
+.image-ticket-container{
+    
+}
+
+.items-display{
+
+    display: flex;
+    box-shadow: 0ch 0px 20px 0px rgba(0, 0, 0, 0.300);
+    
+
+    
+
+}
+
+.delete-button-ticket{
+    margin:1.4rem;
+    margin-top:2.5rem;
+    border:none;
+    
+}
+
+.x-button{
+    border:none;
+    cursor: pointer;
+    background-color: rgba(211, 209, 209, 0.658);
+    
+}
+
+.image-ticket{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: .4rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    
+}
+
+.image-ticket-second{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: .5rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    
+}
+
+.category-food-name{
+    font-family: 'Abel', sans-serif;
+    color:lightgrey;
+    font-weight: 100;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.food-name{
+    font-family: 'Abel', sans-serif;
+    color:hsl(200, 19%, 18%);
+    font-weight: 100;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.column-price-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.price-product{
+    
+
+}
+
+.price-product-text{
+    margin-left:6rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    color:grey;
+}
+
+.price-product-text-second{
+    margin-left:4.5rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    color:grey;
+
+}
+
+.boxes-price-tickets{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.box-price-ticket{
+    background-color: gray;
+    color:white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    border-right:solid 1px white;
+    padding:-2rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.price-string{
+
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+
+.box-iva-ticket{
+    background-color: gray;
+    color:white;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;   
+}
+
+.iva-string{
+    justify-content: center;
+    margin-left: 1.1rem;
+}
+
+.box-total-ticket{
+    background-color: black;
+    color:white;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: .4rem;
+    padding-bottom: .4rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;  
+}
+.total-string{
+    justify-content: center;
+    margin-left: -.5rem;
+}
+
+.string-numbers{
+    margin-left:-.5rem;
+    color:#b8b3b3;
+}
+
+.pay-delete-boxes{
+    display: flex;
+    
+    
+}
+
+.delete-box{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.delete-button{
+    background-color: hsl(6, 58%, 52%);
+    color:white;
+    border:none;
+    border-radius: .4rem;
+    padding-left: 4.1rem;
+    padding-right: 4.1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.pay-box{
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: .3rem;
+}
+
+.pay-button{
+    background-color: #368868;
+    color:white;
+    border:none;
+    border-radius: .4rem;
+    padding-left: 4.1rem;
+    padding-right: 4.1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.column-main{
+
+    margin-top: 1.4rem;
+}
+
+
+
+.column-aside{
+    margin-top: 1.1rem;
+    
+}
+
+.category-tabs{
+    display: flex;
+    justify-content: left;
+    
+}
+
+.home{
+    
+
+}
+
+.home-button{
+    background-color: rgb(175, 173, 173);
+    color:white;
+    border:none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.span-home{
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+
+}
+
+.svg-home{
+    width: 20px;
+    height: 20px;
+    
+    
+}
+
+.category-button{
+    background-color: rgb(175, 173, 173);
+    color:white;
+    border:none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left:.5rem;
+    margin-top: 2rem;
+}
+
+
+
+.span-category{
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+
+}
+
+.svg-category{
+    width: 20px;
+    height: 20px;
+}
+
+.foot-button-box{
+    background-color: rgb(143, 142, 142);
+    color:white;
+    border:none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left:.5rem;
+    margin-top: 2rem;
+}
+
+.svg-foot-button{
+    width: 20px;
+    height: 20px;
+    
+    
+    
+}
+
+.span-foot{
+    color:white;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 5rem;
+
+}
+
+.column-products{
+    display: flex;
+    
+    
+}
+.images-category-soda{
+    
+    margin-top: .9rem;
+    
+}
+.images-category-foot{
+    
+    margin-top: .9rem;
+    
+}
+.soda-image{
+    width: 16rem;
+    height:12rem;
+}
+
+.food-image{
+    width: 16rem;
+    height:12rem;
+    margin-left: 1.5rem;
+}
+
+.soda-txt{
+    margin-top: 1rem;
+    margin-left: 6.2rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.food-txt{
+    margin-top: 1rem;
+    margin-left: 7.5rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.squid-txt{
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.callos-txt{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.meat-with-sauce-txt{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+.title-products{
+    display: flex;
+}
+
+
+/* hovers */
+
+.pay-button:hover{
+    box-shadow: 2px 2px 2px 2px #003300 ;
+}
+
+.delete-button:hover{
+    box-shadow: 2px 2px 2px 2px #9a0007 ;
+}
