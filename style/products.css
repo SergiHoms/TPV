@@ -1,3 +1,36 @@
+.page{
+  opacity: .5;
+  background-color: rgb(0, 0, 0);
+  height: max-content;
+  width: max-content;
+  position: absolute;
+  color: #fff;
+  padding:100%;
+  display: none;
+}
+
+.page .active{
+    opacity: .5;
+    background-color: rgb(0, 0, 0);
+    height: max-content;
+    width: max-content;
+    position: absolute;
+    color: #fff;
+}
+
+.delete-ticket-box{
+    border:1px solid black;
+    border-radius: .2rem;
+    background-color: rgb(255, 255, 255);
+    z-index: 3;
+    position: absolute;
+    top: 20%;
+    left: 3%;
+    right:3%;
+    display: none;
+    
+}
+
 .title-container{
     margin-bottom: 0.5em;
     background-color: lightgrey;
@@ -26,7 +59,7 @@ h3{
 }
 .aside{
     
-    z-index: 1;
+    
 }
 .tpv-aside-title{
     margin-left: 6rem;
@@ -472,4 +505,117 @@ h3{
 
 .delete-button:hover{
     box-shadow: 2px 2px 2px 2px #9a0007 ;
+}
+
+
+/* modal */
+
+/* delete-ticket-box */
+
+
+
+.paymentMethod-close{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid grey;
+}
+
+.paymentMethod{
+    padding:1rem;
+}
+.paymentMethod-span{
+    font-size: 1.4rem;
+    font-family: 'Abel', sans-serif;
+    color:rgb(184, 183, 183);
+    
+
+}
+.btn-close{
+    padding:1rem;
+    border:none;
+}
+.btn-close-button{
+    border:none;
+    background-color:transparent;
+}
+
+.btn-close-span{
+    font-size: 1.4rem;
+    font-family: 'Abel', sans-serif;
+    color:rgb(184, 183, 183);
+    font-weight: 600;
+    
+}
+
+/* button of pagination */
+
+.close-pagination-button{
+    margin-top:1rem;
+    margin-left:82%;
+    
+
+}
+.delete-pagination-button{
+    margin-top:1rem;
+    margin-left:.5rem;
+    margin-bottom: 1rem;
+}
+
+.btn-close-pagination{
+    border:none;
+    background-color:transparent;
+
+}
+.btn-delete-pagination{
+    border:none;
+    background-color: #368868;
+    border-radius: .2rem;
+
+}
+.pagination-delete-span{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    color:rgb(231, 230, 230);
+
+}
+.pagination-close-span{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2rem;
+    color:rgb(184, 183, 183);
+
+}
+
+/* delete ticket content */
+
+.delete-ticket-content{
+    margin-right:20rem;
+
+}
+
+.delete-ticket-content-span-first{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;  
+    color:rgb(184, 183, 183);
+    margin-left:20rem;
+    display:block;
+    
+
+}
+.delete-ticket-content-span-second{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.5rem;  
+    color:rgb(184, 183, 183);
+    margin-left:30rem;
+    
+
+}
+
+
+/* btns-bottom */
+
+
+.btns-bottom{
+    border-top:solid 1px grey;
+    display: flex;
+    
 }
